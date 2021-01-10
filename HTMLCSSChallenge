@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Japanese Restaurant Review (Hana)</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Ethiopean Restaurant Review (RendezVous)</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Argentine Restaurant Review (Tanto)</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16"></div>
+    <div class="w3-center w3-padding-16">Foodex</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id ="food">
+    <div class="w3-third">
+      <img src="https://cdn.torontolife.com/wp-content/uploads/2020/02/toronto-restaurants-hana-japanese-sushi-yorkville-aburi-2-1200x0-c-default.jpg" alt="Aburi Hana" style="width:100%"> <!-- food 1 image -->
+      <h3>Hana</h3> <!-- food 1 title -->
+      <h4><i>Aburi Hana</i></h4>
+      <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+      <p>Aburi Hana is located at 102 Yorkville Ave in Toronto. This restaurant offers a refined, multi-course, culinary experience. Although the Kaiso Seaweed Salad, Yellowtail Oshi, and other meals are delicious, the star of the show is the Hana Kyō-Kaiseki (oyster dish) was a real show stopper. The garnish was beautiful. The meat was tender and flavourful. This place is a must-try.  If you’re ever nearby, be prepared to be amazed.</p> <!-- food 1 review -->
+    </div>
+    
+    <div class="w3-third">
+      <img src="https://media.blogto.com/uploads/2018/04/06/20180404-rendezvous-02.jpg?cmd=resize&quality=70&w=1400&height=2500" alt="Mesob" style="width:100%"> <!-- food 1 image -->
+      <h3>Rendez Vous</h3> <!-- food 1 title -->
+      <h4><i> Mesob </i></h4>
+      <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+      <p>This restaurant has flavour-packed food. Located just a few minutes away from Greenwood station, this 17-year-old restaurant has a reason they have been around for so long. Serving Ethiopian gems like doro wat and chicken stew, Rendez-Vous manages to hit the nail on the head with every dish they serve. The best meal of all is the mesob (a wonderful plattered dish). The mixtures of flavours textures are out of this world. Rendez-Vous has wonderful food and was a wonderful experience; we more than recommend it. </p> <!-- food 1 review -->
+    </div>
+
+   <div class="w3-third">
+      <img src="https://cdn.torontolife.com/wp-content/uploads/2018/01/toronto-restaurants-tanto-argentine-ossington-meat-1200x0-c-default.jpg" alt="Grilled meat Platter" style="width:100%"> <!-- food 1 image -->
+      <h3>Tanto</h3> <!-- food 1 title -->
+     <h4><i> Grilled Meat Platter </i></h4>
+     <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+      <p>Looking for an Argentinian restaurant from a Cava alumnus? Tanto might be just the place for you then. Located at 74 Ossington Ave., this restaurant will provide you with the most authentic Argentinian food you will ever experience. The flavour profile of their meals is punchy but never overbearing, and with the roast over a wood-fired grill, it’s no wonder this food is a hit. Unfortunately, at Foodex™ this location was not a hit. The meat platter let us down. The meat was left chewy and the bread slightly undercooked. Tanto has great promise but still needs some work. </p> <!-- food 1 review -->
+    </div>
+    
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>About Us</h3><br>
+    <img src="https://miro.medium.com/max/3840/1*dkKclsD3PzSVqTAkO9VI9w.jpeg" alt="The Team" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>We love sweets, but we don't sugar coat!</b></h4>
+      <h6><i>With Passion For Real, Good Food</i></h6>
+      <p>Do you value your meal? Don’t want to waste your money on an undercooked steak? We at Foodex™ pride ourselves on our credible, unbiased reviews of meals across Toronto. 
+        Each of our experienced staff (Kelly Guan, Nia Chin, Nandini Vyas, and Brenda Yu) will make sure that you are kept up to date on the best meals in Toronto through this website and all major social media.</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>CREDITS</h3>
+      <p>We cannot fathom not giving credit where due. </p>
+      <p>God bless our lord and saviour <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"> w3schools.com</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>TOP RATED</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="https://cdn.canada247.info/assets/uploads/2b06c171c8e90943300c3f494c34c4a2_-ontario-middlesex-county-london-medway-the-spokehtml.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">The Spoke</span><br>
+          <span>Rated most patriotic</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABL1BMVEX////+/v79/f0AT6MATqMAS6H1nxoASaD7/f88ap/L1N8zcrX55cUAR5/2rkb1nhT09ffWxKwAVKbO3Oz4piAAV6iDqNHu9Pnb4uuir8Dq7e8ARJ5xk8J1nsvz6t75+PaCmrjk6vFUicD4uFb5wm3t6+j1nAAfZq9De7oAPJv2pypRh8DR2+b69e7N3Oz4y4ft2r+9zeL72KHcy7ULXavl2cb5yHr6wWn62bH87tt4krHx4cj00qT2qz+zyeCZtNO+yNQATZnvwYQyarCPqMn60ZT74b/qz6Xtw4r3u1zZ0cTmp0HttWr7z473t07uvoDct4Gst8TiyaXjw5HmrVqAn8fdq2KlvNfW2dzetndQfq/p49huj7dOd6iWqsSPsdYxZaBdfqfYwJjTsYP6sTc8msLSAAAZhElEQVR4nO1djV/aSBPeBJAcnzkahCKSAvJxgaggIhyfryBCz4+zraVVq3fv6///N7wzu0kgIBq0eO39MnfCkGw2++zOzDOzREvI8sLjC2dZ4Xme4+BlZQpBhSxSZgbOEXqQIxy3ECCnI7CmcPp4VqVwOpyHFWPYDJj1NeStKoARX1an8PrLw4puTMbb9JFHEHK8VYUOBm7ErUqxgHChcNOIJwpbGqvKj7CGU2s2hYf6InYyp/DoXjyxqOgD4lalPGMNdXM14M8ovBaRrCkrX0OOBbZFyqzTPWCUs8qSsfRRP/gxZWmES83Gd1emhCf/TtGckUc65GbQL5oZnmiubkVZOYIV+AinX2tVecKxX6pYGrD5w3eONGYuem1lEdJHZOmJfqWlXKDoKme86Ic0TuXmFJ1wLCorB/IkRPaqWdRUhFg8cKJTqiXldeRRMzXGYpUulp1pVo2tTiHfPZQ+0aXN+K8uRmnP5htNlhV3i/YN9G0Ciwohq4401hZRCw5GUP2eMeKRKPAKivaBmzv4yICXDac/TKSxumxLm9JKbfRpOtRUznjRD9mMb1X5GWW5mV7lXjBVHtkr5RkvkKnJnnZSjPccssec8mSv08rq5eltW63y/feKDtByWrrcfinddqMhZ1XKk9kbGzY7sgLG53TyWpWiuf0iZYJvohgNJshNihFnfwzlCZkaumWEOnlYU1YvT4d0bTWtjmZZSjTsflXKgnWYKPo8zFz++JwtwYlmF3ht5VmyBDpiM/73EJvxbcZ/qdiMbzP+02KBsGzGf2DOluBEswu8tvIsWQIdsRn/e4jN+Dbjv1RsxrcZ/2l5KqTz0xMyjeffIjzSCn1Kk60pKmxffy4HMFKIpQR7I5zW7SoUXJJHvp8iRrShZDcdhhYHqKWi6Y8hNuP/3MJTgMwXTSv2bxGOxRrql8QUafTwMquQJdJu8kNEGm255uq7xRFkqQcyXmORLMy1zfg/s9iMTx5QbMa3Gf+VxWZ8m/Ftxv/nEdqMbzO+zfirF5vxbca3Gd9m/H8eoc34NuP/jIyv/TDaIEwhusJNQgmZxJSfivGnvlokFAN96oFjLzw33cLU8jXkefeaZfzuWyYXRTgp7/9qlr0MH31rlotut1uMvAYvxLpvL6JL32iW8ckvzhCKI1yIikQ9akkmCQzETsXp0CUUDofCuVwuv1mC1qw/U+fEyBS0JILTcwdO0IIXxxttyFQbOvOmuCJ2co7wZpR/KeP/4nI6AQL8ePtFuT44bAWDa7oEWz6xne+F/E5sRP93UQnl8v03InNKWVVVnlMTqsqpdZmoiYRK1AZoCZ/KE7WuEj6REFSfT6XncFHUhowvKiGJOnRQVzmi+uCYXE+A1sAThIxhap2Vfmx+kYzJXKxMMf4vLm19nK5Qvh0RMoODKYQBnxDZLrXjxiLiKoacLoAa8naSdEbrp6dllXw4OPKRwVadHO8cvSeDwJFKTgLDjDCoNmX56EhspNP7pHGyMxDgtodnNV4dBpoy2TkSSH1nlyeDe2w8qmbI/tlOHQeXc8MNXb3urC8uy/gGQuwuN4Z1qZ8FpxHiRckr1qpQAmmP4z06I+F4FE/WRyMA9jGbrpHaGSBUTt6T2h8w6HtlVBeHWwNZrp7HMidbKrmWRg3oMKGUj/lG+n4rQUZVQDiCxuXArigO06cZsndWk7Hf39A7nOHxkp44y/gmhDBjbYEju/fBGYT82zA9u037EGKeTTe9+2WMIjwAhM1sa5cirGe3rkntHhFKWwlht7oryjvnMfH8T5lkznYyMMf7UkImvvRBFRDuAMIDaNxUaqK6c3akCnv3ZRk904EIXZW2/qdFnsv4iHASSpxXScLJVTNC6L2bgzbuQowwWufFTT+2htvra1iTNIRytirDGu4LgPAkQ9RyNQMIM+L5/wDh1hEGqP01NQEIq4DwgCEUSDm9LwBC6GAvvUdHurmBCPPF5ZaQyTTjQ6RxTDA6K2NY3z0lOEFIqcXjhYlwIULG7yRWwFV0p+BIPSAd1ElZaTErJdkdAopPJsr9qK6Wt0aA8CQTo2t4sIMIVWVrR/S1FLDSg4METBE4bTkwkMXhveQDKz2mkSZZ+G1jI9eW58xQf7HI+CYrBaS/i4Tbvw+arZRQhBSPLhdh2hzslt/d2uU5X/m4QXw7CUKqNYImmCA7p0dopQOerzVFsfkBYmWzRknm46gB+mgfjPOsLKqngT3SONuqC/Wtgwy5Phj52Pxv99vi8us3y/hmhA5EaF5DDaFzBmExjxdutFEX5m8jCDorCeZYOOUqzMXhVUCPEdBvBDz2si2HecY3r2HonUjkj8G1IGXFh9ZQC82RFJrpxt30yKdqfO7xKoEztZltTF5WW8wxvinS5EpA0qNgsLXVMhDCWk8Q6mk4Q+jf1Kac1SCvUuObJnQZxmcST0KYWAumB/VawIilHDe9hgxPsjBZQ4Amy8kYNuQjyaSoh2sxiSKaYgUvRvBgRJTNtsjLYiQSkafniINjyakMmIOPyWg0gh0+k/GB8XAJW8FPDV7cTT8aaYp4xOEvETEWfQNZQD/Vgcy9ON5Mpdbf4Kjk6PgyVSgU4pfjqIEx5mnfbcLRVPyy0y5OwgifKfUv4/F4v83aApgY9Nq5TN3qjeRkqR9PFfLQYac4F2CnpkpnfO4BxndVOiIRh9nP74mMS/gIQo7GUlcumryMp/K9XiXkWifyuADvLNdJdlB3u90uRyU1jjFP6W56c2H3xsaG3xmq9FJFllUD8PZNLwwpryOcK3TAivho5zKe9/YqDidGPlyJ5DjurTg36LWVPDZa5IfG4mkyhdBVWY8R4VhZ+7x//bFlRBrOQEj5kBlDLIXXuTbF7YrDDak4ZOXr8tsezeJdlbEcjecc6OFuvx8w5jajGCva3pDTHcpvrm/m/C6ni+YLOPzoZY7FAgDprMQ9PN/2Ot2Q5cPBdyJtsw39QeZcWF8vhOFmlc0kWbAtwbMl1FeCm8q83eG7GLCUks2uKS3GFxQh/xDCMRYafm+RE7941itu+OB41+253DgoZ7iTjOOQXf4wHdKGO9wBu+rmXA63tx0TefHLW8BYaaPb8SSaCtHeNvwhx8aG25nfpr1u4GxBbMc7FvMwd65KNyaKsYseJP6hdfGB7x9Q4Wf3ljSEcId8CZrVdz5//fp51FpbgBCjNi/Exr/hJXkP66OUw3umCv5KHlbJCZlWx49Ic33qRPxNLgV2+wX6cHq3tXgQLcBE4Gm+mN+g03JFufU2F0pFWa8hJ2MvsJgbRLtRYrfrQlnlyrXZitEq06zMCGULcADv5lQY4a8/jpQ5K3Xlsb7vdi86BbxhJeWhvUFcjeM0VcKVTqy46a14b4tXGGgruHBoJ7wnitl7Ba5KJXV7KvXoOsDF1LJz/QyzjuJdlF0VK7h0hFFML5z+CCuhCfbuh9mjRs7IcqLQ/Rde/50BLdLk8qnbrgyBPAZxPMaC1/WwNRtpnFjeg1RCYJUhb/+LPiGROC3lKlhqxLoXHrnYwwnxJvF2+k5l7BLWxHH1hbC/JUsil05AyLE9BGdoLGuNKTxURNrrO4w0DGFI0MLjGHJyfzxC10zjBUNBa+UnWZGGsFBKykQstvs33759u8FYDCfAI4NmKwXb0ATuHM53tD0UniF0OgpFPZ8o/kWXPIa3pRDhjrF4CBr12tr2LMSdwl1Ey/6crk2ZhlW9Mf7Q+oWtYTIF0cWf0vO5JPiIG6qgB/czGU8QE0JIZEis1M9XQg4aC//qJCmhNbOzCP+DUsF2Uxg1hMwo2Sok4250lRK7KUfvDGuIXaSKnBbnI9GkQOQ7jALuQpI11BrTBE3EIpQh5D1X4f9cvSEauUQ2WFn1YF73oB9udKKXXpfbybI3KN4huMMpIZA1IdT80FNq9wshFy3yPTxDiPi9HqL5OcePK7jO+XZMT29gwu5oNRIqlGKEGAEhmcfJoYX8bB2Ea6j5IcdFS6UknRc0CxHimNv7ZlGkoWZq9kN3Kh52TZJTqBIxynGknDX5Ia0PKQIx+S6HoJz5KPND/JDSRo5LkNwMY6jvxW9hUqLsVqUeu0XvnYfdHBtu00IeuuH1I4ZiWKlhdXqawvnRy98Q/XtBbkp5mPGd4ZC5hHLm0SJI4n4h44tjhAiwaJ1BY+mmzE5Rm0ne5eiKVXK93CbLSsRNrfNw/l2SDhimuYOFvBOiBtF5zVAmfmg6hRCAXhhCy4zvdM4gDLfRczOj1hzj67Yk9sO4ubhRNPzwHRs1y1PkcY8aPKRtGym260iSXj+9Ee7TvYsxiHG/Qev6lwOawukItVPTlcsGW8OlGH9G3B08lzkwIfSnphCS2N84WneeZ2sIWZvhXpxcym/QHcdKz+v13hlXeR16duYP9zHSEpq/h2l6/Ygf0jUifCzKEnfqMov98IFIMy/+S+yYreHESlMTK4U4NEbTdvWKZBohtRUwYdyoCnkvu8lYLCkS/ZvK2DtvRatGXa44JN6EujPkscRoYygThDTAisVxoReC1I5tYesIrTH+Qwgj0CQTWFw9wbEedeFbE0KcSbBQynFxj1bksG968G6yp1/QMTqxtmCZBKyh0cZQJpEGrdZzmQ/73c6KNxXfTE0ijUXGfwBhH63TJ5nzUpOVkuiVCxPHdQ1hiFkp3ARSTnS2QpJwZhJHO5KLnVTFTRFiuU13CkK/i2SqzRzjA+JSPoTVSLxTAqso6n5olfEX+CFHTs18aPZDRutOx+YsQv4CmcLVezNH4ozQoDS+cjlZDULuICw6XTcx8hDjGzmNUMq7nLQukXHsEcxpGEKLjP+AjLHf++Bja5hkudoMQvi/r5WO88FDf0nGcRJgysQ2Oizb9n0k0hRTMCOuSlFbFUT4SKR5gPHnxIVFDmlkH9nFACv9RtPhvtkPeSKuUyPsMH42/iS+tsLsSPKSJji5aJSGmvAFZ2ps9kNOvMXs3HVLNMZP/rYs488jjAMW8SRrrp78plhKq0KIg29Na4jJAPtS404wMTUX7bJNC3Yk+o2Gm23W2AU9P8L4UB7inb7oDwpsGwiXqvGnxEmT6JoyUwGb/VB8h4mCK5c0WykwNV1Dlh4YJA42HZ4+It7ShKFELio07npMjWncmTA+LZ7cXu1yQm78L2Z8qOK4/UBwgrA454ciS679m1rWNvFD7oI5WUfL4ejhaGrDtTGeXM6XcsyzImy/w52capykWfbEDylCl/eLlnlTy34R4ztzkOonqtM1fjdnfDPDTDF2S/NSVziiI3T0Nasg0ZSDRsptUTdpsXtFY6FsGJaMroVTxnny2Nr9raibmuhJhddj04yfLOC9Ql1mibEbxwsZ3xmCWl0e4l6UHmm4C+rq3qhm3LHoDTOuCs3uksBqTsclOwfmUqK5mLvXpzuiXKzY/4smpP47Uavf+e4vyKUdqNpFlh9AqUWrUjE6/gXmYpsnsZRbjzQ3Dhp5aQKBX+/jYPLPZ/yNVJTIH0y7ieImjQuhGw+V7u9eukquHt1LItsUEW7BsD1LGDTb1vjWL3k8pcu/wrgtAIyd60RYTO1+w5wgFcX9aYSI3eduxiVPqfNLxeXO9aGvIo1kBdziaedoDnELphzt99xx6pZFZhBLMz5MJgIMGHttQiQSvatoFUiFyn8cWP/i7piIW/elOAtP69GMTCmbE9t5B91XdIRxR8DlcvYuL3sO3Axtb0e32/0K5pZXHp4V+2Mv7dARgr5D0HFvHJPFN7Qkc1Yu38hy8hL3G13hq07/KgRTCcNxVaBRxhLj+10mCceLRG22skEUyGnEUjyed7q1s7iHjS9uR7j39xjNKhq/yvnxmMsVyt/0WeFHhDeXvZAbc2T25Ea8JEJHOYffXfHm8xU37vzeFHV+FzzxnNOlPeoBs1ASi/04VCf0jg7o9QtU1Jgiuv0b7txmkfRhspy9m8sbK4z/N9Y3uvRy3j5YRaJ6lmZSrcvjvNckuZw3X/j791tPkrrodl4TejLO9lvgVsnuer5XCcMi9vKXpSRusyZLv+dzDtyY33Dk/n4b0x4axBABdgBVh9vtDPfib5M8v53Se8Q75j0keZsH63WFe6lxEvd8clDYhCohYoHxv3impNv1YPyTE4bIfKzo8cy0KUZjosxqNogMmtBm9Dki9m0bL0a7F287by880YgWJvHQ7fpmfPPd2y7im+J3PuK56Kyv3409mHpyYhJ6NO7ogV7FYvtu/e4tziucj3U7d3ediwsrjK+fpgGX1xaa01Zc0JLlmaSR03xYq3f1I4ypeb0kp2U5FVP9LoKwhI48cOrBB485TREFlvRQftd6fprxnxYDj1kxMJtO8XPKfGNiajPfj2kS55Qpr+MsMf6zET6i6P+mzlzZbl0hZNEpM78/zfjGM8K85qJzyhIiJ+r1hCrIdXyqbapaf1KZbcyrIPLDjXFMcoPewRrj61O/GOG8Hz6s8PWPnwJnn4aN3YP7kwQxlfZPKLLKTx8h9eHXr58Ts/v8nLarD+fP7ndUM9EvZnwdIUc0055VrCKUa+nWebN5qLQ+NCWGUIuqTylCvVyTp4+Q+taaBBB0a9e5gJVh8J9azVYZQguM/7RYQyg0lcCxCsvRbO19kIaygI/GoBnQR2Swja4IIiVSQWTvkGI3pTLtSRC0G8pNZZTQQo4o0nlml9FZF0T5SGryswFmAeN/t2f161LrA82M1UbiT6l5XWvWkFozg3J5X6Cu0yzjA1Hy++Ny85oImcHR0S5+4cSptXSwWktwiUH5eJ8eIeIweCrT8WX2hqeDDOC7rpXLoMA50Jrp1kAwEf0jjD+9UnPsyYIXm+nHFb6a/VPb1RcSB8rBSFGUXcI3TuC9VROExGnrXlGGorj7R+BMqZLE59borPUB/4qeL62s3d/XGwfQILBL9wHk8+wHqiQOW+kz5UiWj9P3Z0prJwEZJWjSWsDHLRjz44z/UAi2ZKXkuqXs0w8Qp6/PgtLhXjr7kewHpOH1/4KBhFoNnrzfV5SmOvpj/7pajqWVZsbX2kL3E2tKej/jA/zvh9J9Bu9aP5B+RStTD6VqIib98f6DcjbIHGdbPr4ppXcz5eyoTojFGv9psYSwKZ0J2nRxe0qwSbid7J/qKFsDsw0o//2YPYHI8DVbrY+CwwxHqtmd68aW1KTP/tSCEDYU5Vgg9XTWh334Wi2cL7kZ/Hz9ZZitlpVWA9Ll7Oi6FkyDg/qyQ3HO/VbL+KQspQWNl/kP+DRmZit7vCelYarlgHI6CtagHSDMNJXg1wyXXQNbDXzMUOsZZodyI5t+TziKELoYKAf4AGbic7B1piiHjSq0IMJ5tpo4kY4hbz1YKwuvzfgDJZDR5kPeCcJ4rtPZRDN7Dut13WqVW60BOOin4KGgHilSU822do6a+zL9Ql89lz4Ip/jcLecLSNcYDJvZr5gyJP5QTo7KAzExUmoC2W+tndYDCjhgIoufX5fxSaK19l/t+Sx5S2mKZK+VhWGfw9R/kEY+peWjvrrLC+pO8KCeTe+LbIwcqX+6b3BAcFBN15QRFrXyYfZ/gFCun7V2kSyuA3C5erKmDOqtP+pE3coGGnCaVduvxPgcTHugpopivenLnEGgA0a7V4+D6YZYP8ju7rfA5RLDYNXXrEeaYIISxBy1Xqcj87UCPrWcTTfkxoEyQMIEW/xvRq4Pa1XpKCFDJghrWD9SgsrAB5gzQymY3lUHhzX1VRlfPlda1eZwJA0a0qdrkjlfU8rXn9Y+HY6UQ6KeSoHzEyVQh2yneaKUuaHUOj8fldHZ+EZAOSirrbX0+aiFnsknDpW1k+HRgXI8aCknh6Oq+lFKb7UC0trW4FT6dHJ/FlSqjZNsOvGqjA9EpUiKJO3INXyAPXMinfnkwX1QkoaQftW3pKw0aiB9KNI5sNqWFJQCA/qISeIke38s1KRgUBlmYDjyh3tJkhRFOtuXy9AsWwOGlaRqVbo/VhvprPRxC9fwEBO3V2R8+Mns4W9KQW7yK2Qm4v6v+zyv7uGvTkFX9BeqrnnWBt75a3jfxxSB5+ActGFN6X2v9/RfuiIJfFfp72Nd02aoZd7DpdDDvvzQmFfE+MwXQbAK56fKdqPG1xVBYE9hQ0uOmz6F1+qlPT/5HTp+coT92oBxjnLCqzE+b3GdzcokUJmOPHIVTxYT/WvV+Bx5SWlvQflHa3wG03pp/yzFxO+vW+MzZZnS/lmKmd9fs8afIHzo6/vvpszw+ysy/qspT0eaVTG+MR/83Dfy31V5uLR/FcY3lLlv5L+r8thQV8z4TJnZqF+B8nBp/yqM/6P44dJiM/7sfNiMbzO+zfhPRhqb8ecUm/HNis34L1ZsxrcZ32Z8Kwhtxl91pLEZf06xGd+s2Iz/YsVmfJvxbca3gtBm/FVHGpvx5xSb8c2KzfgvVmzGtxnfZnwrCG3GX3WksRl/TrEZ36zYjP9ixWZ8m/FtxreC8J9mfB0hZxXh0myxWsUY00JleszEivJjAJsZ9COiPVFufCR6qHp+lybhZp41/+4KfSf8ImXljG/53/Z6vvIk4y/NiD+IcU788CnG163UsE+qLL7spxPu0Y8Lr7A804ySOW5lCtGKhwUK4cx+qIfXxxh/uUDHEhCe41alkAX/lJamvBbjr1CxGd9m/Od0aRKb8W3Gf1KxGX92yBYQLDfTNuPbjP+kYjO+zfjP6dIkNuPbjP+kYjP+7JAtIFhupm3Gtxn/ScVmfJvxn9OlSX5Yxic60c8pPxnj/x8E5/lx9VllcgAAAABJRU5ErkJggg==" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Brescia Cafeteria</span><br>
+          <span>Rated best cafeteria</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Brunch</span> <span class="w3-tag w3-black w3-margin-bottom">Cheap Eats</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dessert</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Salmon</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Downtown</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Homemade</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dressing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Duck</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
